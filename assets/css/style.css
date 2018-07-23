@@ -1249,6 +1249,9 @@ input#submit:hover {
     float: left;
     padding: 15px;
 }
+.strength-content-container{
+    width: 75%;   
+}
 .contact-content-form-header-right h2 {
     font-size: 2rem;
     font-family: "Nunito",sans-serif;
