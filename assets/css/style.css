@@ -50,6 +50,10 @@ h2{
     position: relative;
     width: 50%;
 }
+.back.page-three {
+    background: #000000;
+    border: 2px solid #fefefe;
+}
 .left-content-image img{
     width: 100%;
     height: 100%;
@@ -419,6 +423,13 @@ div#close-portfolio:hover{
 .back.page-seven {
     background: #000000;
     border: 2px solid #fefefe;
+}
+.back.page-three h2 {
+    text-align: center;
+}
+.back.page-three img {
+    width: 100%;
+    height: auto;
 }
 .front.page-eigth {
     background: #000000;
@@ -1522,6 +1533,13 @@ margin-top: 10%;
 /*PORTFOLIO*/
 .portfolio-book-content {
     display: none;
+}
+.portfolio-slide-box h2 {
+    text-align: center;
+}
+.portfolio-slide-box img{
+    height: auto;
+    width: 100%;
 }
 .portfolio-right-content{
     width: 100%;
