@@ -1483,7 +1483,7 @@ slideShow {  0% {
 }
 }
 /*---------------------------------------------------------------------------------------------------------------------MOBILE VIEW*/
-@media only screen and (orientation: landscape) and (min-width: 812px) {
+@media only screen and (orientation: landscape) and (min-width: 640px) {
 .left-content-text{
     top: 5%;
 }
