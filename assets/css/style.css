@@ -1546,6 +1546,7 @@ margin-top: 10%;
 }
 .portfolio-slider .portfolio-slide-box{
     height: 100%;
+    z-index: 100;
 }
 .back-page-one-body-content-lakawon-text{
     width: 100%;
