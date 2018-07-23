@@ -1483,6 +1483,31 @@ slideShow {  0% {
 }
 }
 /*---------------------------------------------------------------------------------------------------------------------MOBILE VIEW*/
+@media only screen and (orientation: landscape) and (min-width: 812px) {
+.left-content-text{
+    top: 5%;
+}
+.right-content-text{
+    top: 5%;
+}
+.contact-right-side {
+margin-top: 10%;
+}
+.about-me-content-right{
+    width: 100%;
+}
+.about-me-second-section{
+    height: unset;
+}
+.about-me-content-left{
+    width: 100%;
+}
+.strength-content-cover{
+    height: 50%;
+}
+}
+
+
 @media only screen and (min-width: 320px) and (max-width: 450px){
 /*PORTFOLIO*/
 .portfolio-book-content {
@@ -1715,3 +1740,4 @@ textarea#message{
     width: 100%;
 }
 }
+
