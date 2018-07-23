@@ -1141,6 +1141,13 @@ input#submit:hover {
 .about-me-content-right p {
     display: none;
 }
+.cover-page-layout small {
+    position: absolute;
+    bottom: 30%;
+    font-size: 1rem;
+    font-family: "Nunito",sans-serif;
+    letter-spacing:2px;
+}
 .about-me-content-right button {
     display: none;
 }
@@ -1553,7 +1560,11 @@ margin-top: 10%;
     width: 100%;
 }
 /*PORTFOLIO-END*/
-
+.portfolio-header-title.shine-text small {
+    position: absolute;
+    top: 50%;
+    font-size: 1rem;
+}
 .contact-pea {
     flex-direction: column;
 }
@@ -1603,7 +1614,8 @@ margin-top: 10%;
     width: 80%;
 }
 .portfolio-header-title.shine-text {
-    display: none;
+    display: block;
+    height: 100vh;
 }
 .about-me-text {
     display: none;
