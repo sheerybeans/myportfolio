@@ -192,6 +192,10 @@ $(document).ready(function(){
 		$(this).find('h2').show();
 	});
 
-
+	$('button#download-resume').click(function(e){
+		 e.preventDefault();  
+	  	$('<a href="https://drive.google.com/open?id=1TEzFE63ex52lfnS4MiLS4OBL6CfEpX6G" target="blank"></a>')[0].click();
+    	
+	})
 });
 
